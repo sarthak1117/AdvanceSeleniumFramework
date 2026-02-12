@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-12T23:57:29 IST" name="UI Test Automation Playground" finished-at="2026-02-12T23:57:43 IST" duration-ms="14001">
+    <groups>
+    </groups>
+    <test started-at="2026-02-12T23:57:29 IST" name="Dummy Test" finished-at="2026-02-12T23:57:43 IST" duration-ms="14001">
+      <class name="tests.DummyClass">
+        <test-method is-config="true" signature="loadconfig()[pri:0, instance:tests.DummyClass@6f96c77]" started-at="2026-02-12T23:57:29 IST" name="loadconfig" finished-at="2026-02-12T23:57:29 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadconfig -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DummyClass@6f96c77]" started-at="2026-02-12T23:57:29 IST" name="setup" finished-at="2026-02-12T23:57:35 IST" duration-ms="5929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dummyMethod()[pri:0, instance:tests.DummyClass@6f96c77]" started-at="2026-02-12T23:57:35 IST" name="dummyMethod" finished-at="2026-02-12T23:57:37 IST" duration-ms="2054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DummyClass@6f96c77]" started-at="2026-02-12T23:57:37 IST" name="tearDown" finished-at="2026-02-12T23:57:37 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DummyClass -->
+      <class name="tests.DummyClass2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DummyClass2@3d680b5a]" started-at="2026-02-12T23:57:37 IST" name="setup" finished-at="2026-02-12T23:57:41 IST" duration-ms="3446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dummyMethod()[pri:0, instance:tests.DummyClass2@3d680b5a]" started-at="2026-02-12T23:57:41 IST" name="dummyMethod" finished-at="2026-02-12T23:57:43 IST" duration-ms="2046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DummyClass2@3d680b5a]" started-at="2026-02-12T23:57:43 IST" name="tearDown" finished-at="2026-02-12T23:57:43 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DummyClass2 -->
+    </test> <!-- Dummy Test -->
+  </suite> <!-- UI Test Automation Playground -->
+</testng-results>
