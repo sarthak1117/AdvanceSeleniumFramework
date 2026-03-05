@@ -5,6 +5,7 @@
         <classes>
             <class name="tests.DummyClass"/>
             <class name="tests.DummyClass2"/>
+            <class name="tests.UITestClass"/>
         </classes>
     </test>                 
 
