@@ -10,6 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
@@ -25,12 +26,12 @@ public class baseClass {
    @BeforeSuite
    public void loadconfig() throws FileNotFoundException, IOException {
                
-         //Load the configuration file 
+      //Load the configuration file 
       properties = new Properties();
-         FileInputStream  fis = new FileInputStream("src/main/resources/config.properties");
+      FileInputStream  fis = new FileInputStream("src/main/resources/config.properties");
 
-            // Load the File
-            properties.load(fis);
+      // Load the File
+      properties.load(fis);
 
    }
 
@@ -47,7 +48,13 @@ public class baseClass {
            // Initialize WebDriver here based on deefined in .properties files 
             String browser =properties.getProperty("browser");
             if(browser.equalsIgnoreCase("chrome")){
-                  driver = new ChromeDriver();
+                  ChromeOptions options = new ChromeOptions();
+                  options.addArguments("--disable-extensions");
+                  options.addArguments("--no-first-run");
+                  options.addArguments("--no-default-browser-check");
+                  options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+                  options.addArguments("--remote-allow-origins=*");
+                  driver = new ChromeDriver(options);
             }
             else if(browser.equalsIgnoreCase("firefox")){
                   driver = new FirefoxDriver();
@@ -78,11 +85,18 @@ public class baseClass {
           
    }
 
+
+
+
   
    public void highlightElement(By locator) {
          WebElement element = driver.findElement(locator);
          JavascriptExecutor js = (JavascriptExecutor) driver;
-         js.executeScript("arguments[0].style.border='3px solid red';", element);
+         js.executeScript("arguments[0].style.border='3px solid yellow';", element);
+   }
+
+   public static Properties getProperties(){
+      return properties;
    }
 
       @AfterMethod

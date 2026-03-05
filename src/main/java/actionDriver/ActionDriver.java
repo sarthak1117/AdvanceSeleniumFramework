@@ -5,8 +5,10 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import base.baseClass;
 
 public class ActionDriver {
 
@@ -16,7 +18,8 @@ public class ActionDriver {
     //constructor to initialize the WebDriver and WebDriverWait
     public ActionDriver(WebDriver driver){
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        int ExplicitWait  = Integer.parseInt(baseClass.getProperties().getProperty("explicitWait"));
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(ExplicitWait));
 
     }
     //method to click on the element
@@ -88,8 +91,9 @@ public class ActionDriver {
         }
     }
 
-    public void waitForPageToLoad(){ 
+    public void waitForPageToLoad(int timeoutInSeconds){ 
         try { 
+            wait.withTimeout(Duration.ofSeconds(timeoutInSeconds));
             wait.until(webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete")); 
         } 
         catch (Exception e) { 
@@ -127,6 +131,72 @@ public class ActionDriver {
             System.out.println("Element not visible: " + e.getMessage());
         }
 
+    }
+
+    /* ---------- alert helpers ---------- */
+    /**
+     * Accepts the currently displayed alert if present.
+     */
+    public void acceptAlert(){
+        try{
+            wait.until(ExpectedConditions.alertIsPresent());
+            driver.switchTo().alert().accept();
+        }
+        catch(Exception e){
+            System.out.println("No alert to accept: " + e.getMessage());
+        }
+    }
+
+    /**
+     * Dismisses the currently displayed alert if present.
+     */
+    public void dismissAlert(){
+        try{
+            wait.until(ExpectedConditions.alertIsPresent());
+            driver.switchTo().alert().dismiss();
+        }
+        catch(Exception e){
+            System.out.println("No alert to dismiss: " + e.getMessage());
+        }
+    }
+
+    /**
+     * Retrieves the text of the currently displayed alert or null if none.
+     */
+    public String getAlertText(){
+        try{
+            wait.until(ExpectedConditions.alertIsPresent());
+            return driver.switchTo().alert().getText();
+        }
+        catch(Exception e){
+            System.out.println("No alert present: " + e.getMessage());
+            return null;
+        }
+    }
+
+    /**
+     * Sends text to a prompt alert and accepts it.
+     */
+    public void sendAlertText(String text){
+        try{
+            wait.until(ExpectedConditions.alertIsPresent());    
+            driver.switchTo().alert().sendKeys(text);
+            driver.switchTo().alert().accept();
+        }
+        catch(Exception e){
+            System.out.println("Unable to send text to alert: " + e.getMessage());
+        }
+    }
+
+    //method to highlight element
+    public void highlightElement(By locator) {
+        try {
+            WebElement element = driver.findElement(locator);
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("arguments[0].style.border='3px solid red';", element);
+        } catch (Exception e) {
+            System.out.println("Unable to highlight element: " + e.getMessage());
+        }
     }
 }
 
