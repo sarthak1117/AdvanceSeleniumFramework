@@ -16,12 +16,16 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.apache.logging.log4j.Logger;
+import actionDriver.ActionDriver;
+import utils.LoggerManager;
 
 public class baseClass {
  
    protected static Properties properties;
-
-   protected WebDriver driver;
+   protected static WebDriver driver;
+   private static ActionDriver actionDriver;
+   public static final Logger logger = LoggerManager.getLogger(baseClass.class);
 
    @BeforeSuite
    public void loadconfig() throws FileNotFoundException, IOException {
@@ -32,6 +36,7 @@ public class baseClass {
 
       // Load the File
       properties.load(fis);
+      logger.info("Configuration file loaded successfully.");
 
    }
 
@@ -41,6 +46,17 @@ public class baseClass {
             loadconfig();
             launchBrowser();
             configureBrowser();
+            logger.info("webdriver initialized and browser configured successfully.");
+            logger.trace("Trace: WebDriver setup completed in setup() method.");
+           // logger.error("Error: This is a test error log to verify logging configuration.");
+            logger.debug("Debug: WebDriver instance created: " + driver);
+
+            // Initialize ActionDriver with the WebDriver instance
+            if(actionDriver == null) {
+                actionDriver = new ActionDriver(driver);
+                logger.info("ActionDriver instance is created");
+            }
+            logger.info("Browser setup completed successfully.");
            
    }
 
@@ -55,12 +71,15 @@ public class baseClass {
                   options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
                   options.addArguments("--remote-allow-origins=*");
                   driver = new ChromeDriver(options);
+                  logger.info("Chrome browser launched successfully.");
             }
             else if(browser.equalsIgnoreCase("firefox")){
                   driver = new FirefoxDriver();
+                  logger.info("Firefox browser launched successfully.");
             }
             else if(browser.equalsIgnoreCase("edge")){
                  driver = new EdgeDriver();
+                 logger.info("Edge browser launched successfully.");
             }
             else{
                   System.out.println("Unsupported browser specified in properties file.");
@@ -104,6 +123,27 @@ public class baseClass {
                   if (driver != null) {
                         driver.quit();
                   }
+                  logger.info("Browser closed successfully.");
+                  driver = null; // Ensure driver is set to null after quitting
+                  actionDriver = null; // Reset ActionDriver instance for next test
+      }
+
+      //Getter method for driver
+      public static WebDriver getDriver() {
+            if (driver == null) {
+                  logger.error("WebDriver instance is null. It should have been initialized in setup().");
+                  throw new IllegalStateException("WebDriver instance is not initialized. Ensure setup() has been called.");
             }
+            return driver;
+      }
+
+      //Getter method for ActionDriver
+      public static ActionDriver getActionDriver() {
+            if (actionDriver == null) {
+                  logger.error("ActionDriver instance is null. It should have been initialized in setup().");
+                  throw new IllegalStateException("ActionDriver instance is not initialized. Ensure setup() has been called.");
+            }
+            return actionDriver;
+      }
 }
 

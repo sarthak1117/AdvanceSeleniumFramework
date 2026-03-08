@@ -1,0 +1,22 @@
+2026-03-09 01:46:33 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-03-09 01:46:33 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-03-09 01:46:35 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-03-09 01:46:37 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-03-09 01:46:37 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-03-09 01:46:37 [main] DEBUG baseClass - Debug: WebDriver instance created: ChromeDriver: chrome on windows (e63b738a66146f00034704013921ecb7)
+2026-03-09 01:46:37 [main] INFO  ActionDriver - WebDriver instance is created
+2026-03-09 01:46:37 [main] INFO  baseClass - ActionDriver instance is created
+2026-03-09 01:46:37 [main] INFO  baseClass - Browser setup completed successfully.
+2026-03-09 01:46:37 [main] INFO  HomePage - Attempting to click the Class Attribute button...
+2026-03-09 01:46:40 [main] INFO  HomePage - Alert text: Primary button pressed
+2026-03-09 01:46:40 [main] INFO  baseClass - Browser closed successfully.
+2026-03-09 01:47:49 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-03-09 01:47:49 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-03-09 01:47:50 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-03-09 01:47:51 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-03-09 01:47:51 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-03-09 01:47:51 [main] DEBUG baseClass - Debug: WebDriver instance created: ChromeDriver: chrome on windows (77bd0f6dfd353c69f1f9838b8982a46c)
+2026-03-09 01:47:51 [main] INFO  ActionDriver - WebDriver instance is created
+2026-03-09 01:47:51 [main] INFO  baseClass - ActionDriver instance is created
+2026-03-09 01:47:51 [main] INFO  baseClass - Browser setup completed successfully.
+2026-03-09 01:47:55 [main] INFO  baseClass - Browser closed successfully.
