@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="BasePath">./logs</Property>
+        <Property name="AutomationTestLOG">automation-testLog</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="LogToConsole" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+    
+        <File name="FileLogger" fileName="${BasePath}/app.log" append="true">
+            <Filters>
+                <ThresholdFilter level="error" onMatch="DENY" onMismatch="ACCEPT" />
+            </Filters>
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %C{1} - %msg%n" />
+        </File>
+
+        <File name="ErrorFileLogger" fileName="${BasePath}/error.log" append="true">
+            <Filters>
+                <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY" />
+            </Filters>
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %C{1} - %msg%n" />
+        </File>
+    </Appenders>
+
+   <Loggers>
+        <Root level="TRACE">
+            <AppenderRef ref="LogToConsole" />
+            <AppenderRef ref="FileLogger" />
+            <AppenderRef ref="ErrorFileLogger" />
+        </Root>
+    </Loggers>
+</Configuration>
