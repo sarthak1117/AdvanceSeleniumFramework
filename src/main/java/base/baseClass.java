@@ -16,6 +16,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
+
+
 import org.apache.logging.log4j.Logger;
 import actionDriver.ActionDriver;
 import utils.LoggerManager;
@@ -23,8 +26,13 @@ import utils.LoggerManager;
 public class baseClass {
  
    protected static Properties properties;
-   protected static WebDriver driver;
-   private static ActionDriver actionDriver;
+//   protected static WebDriver driver;
+//   private static ActionDriver actionDriver;
+
+   private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+   private static ThreadLocal<ActionDriver> actionDriver = new ThreadLocal<>();
+
+
    public static final Logger logger = LoggerManager.getLogger(baseClass.class);
 
    @BeforeSuite
@@ -39,12 +47,12 @@ public class baseClass {
       logger.info("Configuration file loaded successfully.");
 
    }
-
+    @Parameters("browserName")
     @BeforeMethod
-   public void setup() throws FileNotFoundException, IOException {
+   public void setup(String browserName) throws FileNotFoundException, IOException {
 
             loadconfig();
-            launchBrowser();
+            launchBrowser(browserName);
             configureBrowser();
             logger.info("webdriver initialized and browser configured successfully.");
             logger.trace("Trace: WebDriver setup completed in setup() method.");
@@ -52,17 +60,22 @@ public class baseClass {
             logger.debug("Debug: WebDriver instance created: " + driver);
 
             // Initialize ActionDriver with the WebDriver instance
-            if(actionDriver == null) {
-                actionDriver = new ActionDriver(driver);
-                logger.info("ActionDriver instance is created");
-            }
+            // if(actionDriver == null) {
+            //     actionDriver = new ActionDriver(driver);
+            //     logger.info("ActionDriver instance is created." + Thread.currentThread().threadId());
+            // }
+
+            // Initialize ActionDriver for the current thread
+            actionDriver.set(new ActionDriver(getDriver()));
+            logger.info("ActionDriver instance is created for thread: " + Thread.currentThread().threadId());
             logger.info("Browser setup completed successfully.");
            
    }
 
-   public void launchBrowser() throws FileNotFoundException, IOException {
+   public void launchBrowser(String browserName) throws FileNotFoundException, IOException {
            // Initialize WebDriver here based on deefined in .properties files 
-            String browser =properties.getProperty("browser");
+           // String browser =properties.getProperty("browser");
+            String browser = (browserName != null) ? browserName : properties.getProperty("browser");
             if(browser.equalsIgnoreCase("chrome")){
                   ChromeOptions options = new ChromeOptions();
                   options.addArguments("--disable-extensions");
@@ -70,15 +83,18 @@ public class baseClass {
                   options.addArguments("--no-default-browser-check");
                   options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
                   options.addArguments("--remote-allow-origins=*");
-                  driver = new ChromeDriver(options);
+                  //driver = new ChromeDriver(options);
+                  driver.set(new ChromeDriver(options));
                   logger.info("Chrome browser launched successfully.");
             }
             else if(browser.equalsIgnoreCase("firefox")){
-                  driver = new FirefoxDriver();
+                  //driver = new FirefoxDriver();
+                  driver.set(new FirefoxDriver());
                   logger.info("Firefox browser launched successfully.");
             }
             else if(browser.equalsIgnoreCase("edge")){
-                 driver = new EdgeDriver();
+                 //driver = new EdgeDriver();
+                  driver.set(new EdgeDriver());
                  logger.info("Edge browser launched successfully.");
             }
             else{
@@ -94,13 +110,13 @@ public class baseClass {
 
        //Define the implicit wait as it is global wait
             int implicitwait = Integer.parseInt(properties.getProperty("implicitWait"));
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitwait));
+            getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitwait));
 
             //maximize the browser window
-            driver.manage().window().maximize();
+            getDriver().manage().window().maximize();
 
             //Navigate to the URL defined in the properties file
-            driver.get(properties.getProperty("url"));
+            getDriver().get(properties.getProperty("url"));
           
    }
 
@@ -109,8 +125,8 @@ public class baseClass {
 
   
    public void highlightElement(By locator) {
-         WebElement element = driver.findElement(locator);
-         JavascriptExecutor js = (JavascriptExecutor) driver;
+         WebElement element = getDriver().findElement(locator);
+         JavascriptExecutor js = (JavascriptExecutor) getDriver();
          js.executeScript("arguments[0].style.border='3px solid yellow';", element);
    }
 
@@ -120,30 +136,33 @@ public class baseClass {
 
       @AfterMethod
       public void tearDown() {
-                  if (driver != null) {
-                        driver.quit();
+                  if (getDriver() != null) {
+                        getDriver().quit();
                   }
                   logger.info("Browser closed successfully.");
-                  driver = null; // Ensure driver is set to null after quitting
-                  actionDriver = null; // Reset ActionDriver instance for next test
+                  // driver = null; // Ensure driver is set to null after quitting
+                  // actionDriver = null; // Reset ActionDriver instance for next test
+
+                  driver.remove(); // Remove the WebDriver instance from ThreadLocal
+                  actionDriver.remove(); // Remove the ActionDriver instance from ThreadLocal
       }
 
       //Getter method for driver
       public static WebDriver getDriver() {
-            if (driver == null) {
+            if (driver.get() == null) {
                   logger.error("WebDriver instance is null. It should have been initialized in setup().");
                   throw new IllegalStateException("WebDriver instance is not initialized. Ensure setup() has been called.");
             }
-            return driver;
+            return driver.get();
       }
 
       //Getter method for ActionDriver
       public static ActionDriver getActionDriver() {
-            if (actionDriver == null) {
+            if (actionDriver.get() == null) {
                   logger.error("ActionDriver instance is null. It should have been initialized in setup().");
                   throw new IllegalStateException("ActionDriver instance is not initialized. Ensure setup() has been called.");
             }
-            return actionDriver;
+            return actionDriver.get();
       }
 }
 

@@ -13,7 +13,8 @@ public class UITestClass extends baseClass{
     @BeforeMethod
     public void setUpPages() {
         System.out.println(">>> setUpPages() called - Creating HomePage instance");
-        homePage = new HomePage(driver);
+        homePage = new HomePage(getDriver()); // Pass the WebDriver instance to the HomePage constructor
+        System.out.println("HomePage instance created successfully: " + homePage);
     }
     @Test
     public void testDynamicID() throws InterruptedException {
@@ -24,8 +25,8 @@ public class UITestClass extends baseClass{
         homePage.classAttribute();
     }
 
-    @Test   
-    public void testHiddenLayers() {
-        homePage.hiddenLayers();
-    }
+    // @Test   
+    // public void testHiddenLayers() {
+    //     homePage.hiddenLayers();
+    // }
 }

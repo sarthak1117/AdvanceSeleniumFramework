@@ -2,3 +2,5 @@ D:\Selenium project\Testing-Framework\src\main\java\actionDriver\ActionDriver.ja
 D:\Selenium project\Testing-Framework\src\main\java\base\baseClass.java
 D:\Selenium project\Testing-Framework\src\main\java\pages\HomePage.java
 D:\Selenium project\Testing-Framework\src\main\java\utils\ConfigReader.java
+D:\Selenium project\Testing-Framework\src\main\java\utils\ExtentManager.java
+D:\Selenium project\Testing-Framework\src\main\java\utils\LoggerManager.java

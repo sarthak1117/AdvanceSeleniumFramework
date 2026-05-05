@@ -7,3 +7,150 @@ Command: [77bd0f6dfd353c69f1f9838b8982a46c, clickElement {id=f.64F04EF1B17988A03
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59517}, goog:processID: 2188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59517/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Element: [[ChromeDriver: chrome on windows (77bd0f6dfd353c69f1f9838b8982a46c)] -> xpath: //button[@id='greenButton']]
 Session ID: 77bd0f6dfd353c69f1f9838b8982a46c
+2026-03-19 00:15:16 [TestNG-test-Dummy Test-3] ERROR ActionDriver - Unable to get element description: Error communicating with the remote browser. It may have died.
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af15a5ef8222b264723a594c9dbae65d, getElementAttribute [name, id]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63520}, goog:processID: 6064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63520/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (af15a5ef8222b264723a594c9dbae65d)] -> xpath: //button[contains(concat(' ', normalize-space(@class), ' '), ' btn-primary ')]]
+Session ID: af15a5ef8222b264723a594c9dbae65d
+2026-03-19 00:15:16 [TestNG-test-Dummy Test-3] ERROR ActionDriver - Element not clickable: Error communicating with the remote browser. It may have died.
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af15a5ef8222b264723a594c9dbae65d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63520}, goog:processID: 6064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63520/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af15a5ef8222b264723a594c9dbae65d
+2026-03-19 00:15:16 [TestNG-test-Dummy Test-3] ERROR ActionDriver - Unable to click on the element:Error communicating with the remote browser. It may have died.
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af15a5ef8222b264723a594c9dbae65d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63520}, goog:processID: 6064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63520/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af15a5ef8222b264723a594c9dbae65d
+2026-03-19 00:15:16 [TestNG-test-Dummy Test-3] ERROR ActionDriver - No alert present: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63520}, goog:processID: 6064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63520/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2026-03-19 00:15:16 [TestNG-test-Dummy Test-3] ERROR ActionDriver - No alert to accept: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63520}, goog:processID: 6064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63520/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2026-03-19 00:15:30 [TestNG-test-Dummy Test-3] ERROR ActionDriver - Unable to click on the element:element click intercepted: Element <button class="btn btn-success" type="button" id="green..." style="border: 3px solid red;">Button</button> is not clickable at point (251, 417). Other element would receive the click: <button type="button" class="btn btn-primary" id="blue...">Button</button>
+  (Session info: chrome=145.0.7632.162)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e475eb07cf70c5841ba91bca938dff4c, clickElement {id=f.A2F7A08BECEF7EAFB95B1FFC3417F721.d.956B76DCC6C99E91FBD54E3C69068605.e.15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62620}, goog:processID: 20624, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62620/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e475eb07cf70c5841ba91bca938dff4c)] -> xpath: //button[@id='greenButton']]
+Session ID: e475eb07cf70c5841ba91bca938dff4c
+2026-03-19 23:30:36 [TestNG-test-Dummy Test-3] ERROR ActionDriver - Unable to get element description: invalid session id
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5fb02c83ef512dab2f349d507dcc549f, getElementAttribute {name=name, id=f.C4CDEA69C7E0F28E97A19DB658E3B4B8.d.7F278E3E23606FA8237C7E415F39E545.e.15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49485}, goog:processID: 8652, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49485/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5fb02c83ef512dab2f349d507dcc549f)] -> xpath: //button[contains(concat(' ', normalize-space(@class), ' '), ' btn-primary ')]]
+Session ID: 5fb02c83ef512dab2f349d507dcc549f
+2026-03-19 23:30:36 [TestNG-test-Dummy Test-3] ERROR ActionDriver - Element not clickable: Error communicating with the remote browser. It may have died.
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5fb02c83ef512dab2f349d507dcc549f, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49485}, goog:processID: 8652, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49485/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fb02c83ef512dab2f349d507dcc549f
+2026-03-19 23:30:36 [TestNG-test-Dummy Test-3] ERROR ActionDriver - Unable to click on the element:Error communicating with the remote browser. It may have died.
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5fb02c83ef512dab2f349d507dcc549f, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49485}, goog:processID: 8652, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49485/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fb02c83ef512dab2f349d507dcc549f
+2026-03-19 23:30:36 [TestNG-test-Dummy Test-3] ERROR ActionDriver - No alert present: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49485}, goog:processID: 8652, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49485/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2026-03-19 23:30:36 [TestNG-test-Dummy Test-3] ERROR ActionDriver - No alert to accept: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49485}, goog:processID: 8652, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49485/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2026-03-19 23:30:38 [TestNG-test-Dummy Test-3] ERROR ActionDriver - Unable to highlight element: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.162)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [322b4108e403e8316f153b87414d78b7, findElement {using=xpath, value=//a[contains(.,'Dynamic ID')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64084}, goog:processID: 1064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64084/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 322b4108e403e8316f153b87414d78b7
+2026-03-19 23:30:38 [TestNG-test-Dummy Test-3] ERROR ActionDriver - Unable to get element description: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.162)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [322b4108e403e8316f153b87414d78b7, findElement {using=xpath, value=//a[contains(.,'Dynamic ID')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64084}, goog:processID: 1064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64084/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 322b4108e403e8316f153b87414d78b7
+2026-03-19 23:31:09 [TestNG-test-Dummy Test-3] ERROR ActionDriver - Element not clickable: Expected condition failed: waiting for element found by By.xpath: //a[contains(.,'Dynamic ID')] to be clickable, but the element null.
+(tried for 30 seconds with 500 milliseconds interval)
+2026-03-19 23:31:09 [TestNG-test-Dummy Test-3] ERROR ActionDriver - Unable to click on the element:no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.162)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [322b4108e403e8316f153b87414d78b7, findElement {using=xpath, value=//a[contains(.,'Dynamic ID')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64084}, goog:processID: 1064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64084/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 322b4108e403e8316f153b87414d78b7
+2026-03-19 23:31:09 [TestNG-test-Dummy Test-3] ERROR ActionDriver - Unable to highlight element: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.162)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [322b4108e403e8316f153b87414d78b7, findElement {using=xpath, value=//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64084}, goog:processID: 1064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64084/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 322b4108e403e8316f153b87414d78b7
+2026-03-19 23:31:14 [TestNG-test-Dummy Test-3] ERROR ActionDriver - Unable to get element description: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.162)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [322b4108e403e8316f153b87414d78b7, findElement {using=xpath, value=//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64084}, goog:processID: 1064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64084/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 322b4108e403e8316f153b87414d78b7
+2026-03-19 23:31:44 [TestNG-test-Dummy Test-3] ERROR ActionDriver - Element not clickable: Expected condition failed: waiting for element found by By.xpath: //button[contains(@class,'btn-primary') and text()='Button with Dynamic ID'] to be clickable, but the element null.
+(tried for 30 seconds with 500 milliseconds interval)
+2026-03-19 23:31:44 [TestNG-test-Dummy Test-3] ERROR ActionDriver - Unable to click on the element:no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.162)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [322b4108e403e8316f153b87414d78b7, findElement {using=xpath, value=//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64084}, goog:processID: 1064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64084/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 322b4108e403e8316f153b87414d78b7
+2026-03-19 23:31:49 [TestNG-test-Dummy Test-3] ERROR ActionDriver - Unable to click on the element:element click intercepted: Element <button class="btn btn-success" type="button" id="green..." style="border: 3px solid red;">Button</button> is not clickable at point (251, 417). Other element would receive the click: <button type="button" class="btn btn-primary" id="blue...">Button</button>
+  (Session info: chrome=145.0.7632.162)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c56cf263978aa175105d3314714822cf, clickElement {id=f.4B95BE4BABC8161A1A8FFAD6EB81DDA0.d.B662EBEF0299A3ADC502F7E869BADC78.e.19}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57573}, goog:processID: 30872, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57573/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c56cf263978aa175105d3314714822cf)] -> xpath: //button[@id='greenButton']]
+Session ID: c56cf263978aa175105d3314714822cf
+2026-05-06 02:03:14 [TestNG-tests-2] ERROR baseClass - WebDriver instance is null. It should have been initialized in setup().
+2026-05-06 02:03:14 [TestNG-tests-1] ERROR baseClass - WebDriver instance is null. It should have been initialized in setup().
+2026-05-06 02:03:14 [TestNG-tests-1] ERROR baseClass - WebDriver instance is null. It should have been initialized in setup().

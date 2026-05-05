@@ -27,9 +27,11 @@ public class ActionDriver {
     }
     //method to click on the element
     public void click(By by){
+        String elementDescription = getElementDescription(by);
         try{
         waitForElementToBeClickable(by);
         driver.findElement(by).click();
+        logger.info("Clicked on element: " + elementDescription);
         }
         catch(Exception e){
             logger.error("Unable to click on the element:" + e.getMessage());
@@ -41,6 +43,7 @@ public class ActionDriver {
             waitForElementToBeVisible(by);
             driver.findElement(by).clear();
             driver.findElement(by).sendKeys(text);
+            logger.info("Entered text: " + text + " into element: " + getElementDescription(by));
         }
         catch(Exception e){
             logger.error("Unable to enter text in the element:" + e.getMessage());
@@ -81,9 +84,9 @@ public class ActionDriver {
     public boolean isDisplayed(By by){
         try {
             waitForElementToBeVisible(by);
+            logger.info("Element is displayed: " + getElementDescription(by));
             boolean isDisplayed = driver.findElement(by).isDisplayed();
             if(isDisplayed){
-                logger.info("Element is displayed: " + by.toString());
                 return isDisplayed;
             }
         else return isDisplayed;
@@ -201,6 +204,69 @@ public class ActionDriver {
             logger.error("Unable to highlight element: " + e.getMessage());
         }
     }
+
+    public String getElementDescription(By locator) {
+        //check for null driver or locator to avoid null pointer exception
+        if(driver== null){
+            return "driver is null";
+        }
+        if(locator== null){
+            return "locator is null";
+        }
+
+        try{
+            //find element using the locator
+        WebElement element = driver.findElement(locator);
+
+        //get Element Attirvbutes
+        String name = element.getAttribute("name");
+        String id = element.getAttribute("id");
+        String className = element.getAttribute("class");
+        String text = element.getText();
+        String placeholder = element.getAttribute("placeholder");
+        String type = element.getAttribute("type");
+        String Value = element.getAttribute("value");
+        String tagName = element.getTagName();
+
+        //return a description based on available attributes, prioritizing the most unique ones
+        if(!isNotEmpty(name)){
+            return "Element with name:" +name;
+        }
+        if(!isNotEmpty(id)){
+            return "Element with id:" +id;
+        }
+        if(!isNotEmpty(className)){
+            return "Element with class:" +className;
+        }
+        if(!isNotEmpty(text)){
+            return "Element with text:" +truncate(text,30);
+        }
+        if(!isNotEmpty(placeholder)){
+            return "Element with placeholder:" +placeholder;
+        }
+
+        }
+        catch(Exception e){
+            logger.error("Unable to get element description: " + e.getMessage());
+            return "Error getting element description: " + e.getMessage();
+        }
+
+        return null;
+    }
+
+//Utility method to check if a string is not empty or null
+    public boolean isNotEmpty(String value){
+        return value != null && !value.trim().isEmpty();
+    }
+
+//Utility method to truncate long text for better logging
+    public String truncate(String value, int maxlength){
+        if(value == null || value.length() <= maxlength){
+            return value;
+        }
+        return value.substring(0, maxlength) + "...";
+    }
+
 }
 
 

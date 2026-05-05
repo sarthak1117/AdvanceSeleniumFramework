@@ -1,3 +1,6 @@
 actionDriver\ActionDriver.class
-utils\ConfigReader.class
+utils\LoggerManager.class
 base\baseClass.class
+pages\HomePage.class
+utils\ConfigReader.class
+utils\ExtentManager.class
