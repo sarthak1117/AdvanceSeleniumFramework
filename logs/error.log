@@ -154,3 +154,136 @@ Session ID: c56cf263978aa175105d3314714822cf
 2026-05-06 02:03:14 [TestNG-tests-2] ERROR baseClass - WebDriver instance is null. It should have been initialized in setup().
 2026-05-06 02:03:14 [TestNG-tests-1] ERROR baseClass - WebDriver instance is null. It should have been initialized in setup().
 2026-05-06 02:03:14 [TestNG-tests-1] ERROR baseClass - WebDriver instance is null. It should have been initialized in setup().
+2026-05-06 02:41:42 [TestNG-test-Dummy Test two-1] ERROR ActionDriver - Unable to highlight element: Browsing context has been discarded
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1749cdb1-9302-4982-9279-61f7dbc8e631, findElement {using=xpath, value=//a[contains(.,'Dynamic ID')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 150.0.1, moz:accessibilityChecks: false, moz:buildID: 20260427013024, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28812, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1749cdb1-9302-4982-9279-61f7dbc8e631
+2026-05-06 02:41:42 [TestNG-test-Dummy Test two-1] ERROR ActionDriver - Unable to get element description: Failed to decode response from marionette
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1749cdb1-9302-4982-9279-61f7dbc8e631, findElement {using=xpath, value=//a[contains(.,'Dynamic ID')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 150.0.1, moz:accessibilityChecks: false, moz:buildID: 20260427013024, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28812, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1749cdb1-9302-4982-9279-61f7dbc8e631
+2026-05-06 02:41:42 [TestNG-test-Dummy Test two-1] ERROR ActionDriver - Element not clickable: Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1749cdb1-9302-4982-9279-61f7dbc8e631, findElement {using=xpath, value=//a[contains(.,'Dynamic ID')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 150.0.1, moz:accessibilityChecks: false, moz:buildID: 20260427013024, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28812, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1749cdb1-9302-4982-9279-61f7dbc8e631
+2026-05-06 02:41:42 [TestNG-test-Dummy Test two-1] ERROR ActionDriver - Unable to click on the element:Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1749cdb1-9302-4982-9279-61f7dbc8e631, findElement {using=xpath, value=//a[contains(.,'Dynamic ID')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 150.0.1, moz:accessibilityChecks: false, moz:buildID: 20260427013024, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28812, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1749cdb1-9302-4982-9279-61f7dbc8e631
+2026-05-06 02:41:42 [TestNG-test-Dummy Test two-1] ERROR ActionDriver - Unable to highlight element: Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1749cdb1-9302-4982-9279-61f7dbc8e631, findElement {using=xpath, value=//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 150.0.1, moz:accessibilityChecks: false, moz:buildID: 20260427013024, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28812, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1749cdb1-9302-4982-9279-61f7dbc8e631
+2026-05-06 02:41:47 [TestNG-test-Dummy Test two-1] ERROR ActionDriver - Unable to get element description: Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1749cdb1-9302-4982-9279-61f7dbc8e631, findElement {using=xpath, value=//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 150.0.1, moz:accessibilityChecks: false, moz:buildID: 20260427013024, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28812, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1749cdb1-9302-4982-9279-61f7dbc8e631
+2026-05-06 02:41:47 [TestNG-test-Dummy Test two-1] ERROR ActionDriver - Element not clickable: Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1749cdb1-9302-4982-9279-61f7dbc8e631, findElement {using=xpath, value=//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 150.0.1, moz:accessibilityChecks: false, moz:buildID: 20260427013024, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28812, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1749cdb1-9302-4982-9279-61f7dbc8e631
+2026-05-06 02:41:47 [TestNG-test-Dummy Test two-1] ERROR ActionDriver - Unable to click on the element:Tried to run command without establishing a connection
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1749cdb1-9302-4982-9279-61f7dbc8e631, findElement {using=xpath, value=//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 150.0.1, moz:accessibilityChecks: false, moz:buildID: 20260427013024, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28812, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1749cdb1-9302-4982-9279-61f7dbc8e631
+2026-05-06 02:42:43 [TestNG-methods-2] ERROR ActionDriver - Unable to click on the element:The element with the reference 8c533a69-8b6f-4967-9834-c0993eb4029b is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [aaa24d00-0396-49a8-8e49-a5ff36c003a1, clickElement {id=8c533a69-8b6f-4967-9834-c0993eb4029b}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 150.0.1, moz:accessibilityChecks: false, moz:buildID: 20260427013024, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21896, moz:profile: C:\Users\hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (aaa24d00-0396-49a8-8e49-a5ff36c003a1)] -> xpath: //a[contains(.,'Dynamic ID')]]
+Session ID: aaa24d00-0396-49a8-8e49-a5ff36c003a1
+2026-05-21 01:17:26 [main] ERROR ActionDriver - Unable to highlight element: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID']"}
+  (Session info: chrome=148.0.7778.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45e733840d77458296c72c22892fe97b, findElement {value=//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53915}, goog:processID: 14552, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53915/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45e733840d77458296c72c22892fe97b
+2026-05-21 01:17:41 [main] ERROR ActionDriver - Unable to get element description: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID']"}
+  (Session info: chrome=148.0.7778.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45e733840d77458296c72c22892fe97b, findElement {value=//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53915}, goog:processID: 14552, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53915/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45e733840d77458296c72c22892fe97b
+2026-05-21 01:18:12 [main] ERROR ActionDriver - Element not clickable: Expected condition failed: waiting for element found by By.xpath: //button[contains(@class,'btn-primary') and text()='Button with Dynamic ID'] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID']"}.
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53915}, goog:processID: 14552, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53915/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45e733840d77458296c72c22892fe97b
+2026-05-21 01:18:23 [main] ERROR ActionDriver - Unable to click on the element:no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID']"}
+  (Session info: chrome=148.0.7778.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [45e733840d77458296c72c22892fe97b, findElement {value=//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53915}, goog:processID: 14552, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53915/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45e733840d77458296c72c22892fe97b
+2026-05-24 13:19:55 [main] ERROR ActionDriver - Unable to highlight element: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID']"}
+  (Session info: chrome=148.0.7778.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [733b9a9795875d8fa4e6d7806b8284e0, findElement {value=//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56071}, goog:processID: 15340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56071/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 733b9a9795875d8fa4e6d7806b8284e0
+2026-05-24 13:20:10 [main] ERROR ActionDriver - Unable to get element description: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID']"}
+  (Session info: chrome=148.0.7778.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [733b9a9795875d8fa4e6d7806b8284e0, findElement {value=//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56071}, goog:processID: 15340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56071/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 733b9a9795875d8fa4e6d7806b8284e0
+2026-05-24 13:20:41 [main] ERROR ActionDriver - Element not clickable: Expected condition failed: waiting for element found by By.xpath: //button[contains(@class,'btn-primary') and text()='Button with Dynamic ID'] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID']"}.
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56071}, goog:processID: 15340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56071/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 733b9a9795875d8fa4e6d7806b8284e0
+2026-05-24 13:20:52 [main] ERROR ActionDriver - Unable to click on the element:no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID']"}
+  (Session info: chrome=148.0.7778.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [733b9a9795875d8fa4e6d7806b8284e0, findElement {value=//button[contains(@class,'btn-primary') and text()='Button with Dynamic ID'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.178, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56071}, goog:processID: 15340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56071/devtoo..., se:cdpVersion: 148.0.7778.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 733b9a9795875d8fa4e6d7806b8284e0

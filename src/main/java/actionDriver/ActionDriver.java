@@ -9,6 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import base.baseClass;
+import utils.ExtentManager;
+
 import org.apache.logging.log4j.Logger;
 
 public class ActionDriver {
@@ -31,9 +33,11 @@ public class ActionDriver {
         try{
         waitForElementToBeClickable(by);
         driver.findElement(by).click();
+        ExtentManager.logStep("Clicked on element: " + elementDescription);
         logger.info("Clicked on element: " + elementDescription);
         }
         catch(Exception e){
+            ExtentManager.logFailureWithScreenshot(baseClass.getDriver(), "Unable to click element:", elementDescription+"_unable to click");
             logger.error("Unable to click on the element:" + e.getMessage());
         }
     }
@@ -43,6 +47,7 @@ public class ActionDriver {
             waitForElementToBeVisible(by);
             driver.findElement(by).clear();
             driver.findElement(by).sendKeys(text);
+            ExtentManager.logStep("Entered text: " + text + " into element: " + getElementDescription(by));
             logger.info("Entered text: " + text + " into element: " + getElementDescription(by));
         }
         catch(Exception e){
@@ -64,35 +69,40 @@ public class ActionDriver {
     }
     
     //compare the expected text with the actual text
-    public void compareText(By by, String ExpectedText){
+    public boolean compareText(By by, String ExpectedText){
         try {
             waitForElementToBeVisible(by);
         String actualText = getText(by);
         if(actualText !=null && actualText.equals(ExpectedText)){
-            logger.info("Text is matching: " + actualText);
+            logger.info("Text is matching: " + actualText + " == " + ExpectedText);
+        ExtentManager.logStepWithScreenshot(baseClass.getDriver(), "Compare Text", "Text Verified Successfully! "+ actualText+ " equals "+ ExpectedText);
         }
         else{
             logger.warn("Text is not matching. Expected: " + ExpectedText + ", Actual: " + actualText);
+            ExtentManager.logFailureWithScreenshot(baseClass.getDriver(), "Compare Text", "Text Verification Failed! "+ actualText+ " does not equal "+ ExpectedText);
+            return false;
         }
             
         } catch (Exception e) {
             logger.error("Error comparing text: " + e.getMessage());
         }
-        
+        return false;
     }
 
     public boolean isDisplayed(By by){
         try {
             waitForElementToBeVisible(by);
             logger.info("Element is displayed: " + getElementDescription(by));
+            ExtentManager.logStep("Element is displayed: " + getElementDescription(by));
+            ExtentManager.logStepWithScreenshot(baseClass.getDriver(), "Element Displayed", "Element is displayed: " + getElementDescription(by));
             boolean isDisplayed = driver.findElement(by).isDisplayed();
             if(isDisplayed){
                 return isDisplayed;
             }
         else return isDisplayed;
-            
         } catch (Exception e) {
             logger.error("Element is not displayed: " + e.getMessage());
+            ExtentManager.logFailureWithScreenshot(baseClass.getDriver(),"Element is not displayed", "Element is not displayed: " + getElementDescription(by));
             return false;
         }
     }

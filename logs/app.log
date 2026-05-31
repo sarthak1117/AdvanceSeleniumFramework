@@ -858,3 +858,632 @@
 2026-05-06 02:17:32 [TestNG-tests-2] INFO  ActionDriver - Clicked on element: Element with name:
 2026-05-06 02:17:38 [TestNG-tests-2] INFO  ActionDriver - Clicked on element: Element with name:
 2026-05-06 02:17:39 [TestNG-tests-2] INFO  baseClass - Browser closed successfully.
+2026-05-06 02:39:48 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-06 02:39:48 [TestNG-tests-1] INFO  baseClass - Configuration file loaded successfully.
+2026-05-06 02:39:52 [TestNG-tests-1] INFO  baseClass - Firefox browser launched successfully.
+2026-05-06 02:39:54 [TestNG-tests-1] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-06 02:39:54 [TestNG-tests-1] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-06 02:39:54 [TestNG-tests-1] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@2862ef59
+2026-05-06 02:39:54 [TestNG-tests-1] INFO  ActionDriver - WebDriver instance is created
+2026-05-06 02:39:54 [TestNG-tests-1] INFO  baseClass - ActionDriver instance is created for thread: 32
+2026-05-06 02:39:54 [TestNG-tests-1] INFO  baseClass - Browser setup completed successfully.
+2026-05-06 02:39:54 [TestNG-tests-1] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-06 02:39:55 [TestNG-tests-1] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:40:01 [TestNG-tests-1] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:40:01 [TestNG-tests-1] INFO  baseClass - Browser closed successfully.
+2026-05-06 02:40:01 [TestNG-tests-1] INFO  baseClass - Configuration file loaded successfully.
+2026-05-06 02:40:05 [TestNG-tests-1] INFO  baseClass - Firefox browser launched successfully.
+2026-05-06 02:40:07 [TestNG-tests-1] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-06 02:40:07 [TestNG-tests-1] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-06 02:40:07 [TestNG-tests-1] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@2862ef59
+2026-05-06 02:40:07 [TestNG-tests-1] INFO  ActionDriver - WebDriver instance is created
+2026-05-06 02:40:07 [TestNG-tests-1] INFO  baseClass - ActionDriver instance is created for thread: 32
+2026-05-06 02:40:07 [TestNG-tests-1] INFO  baseClass - Browser setup completed successfully.
+2026-05-06 02:40:07 [TestNG-tests-1] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-06 02:40:08 [TestNG-tests-1] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:40:13 [TestNG-tests-1] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:40:14 [TestNG-tests-1] INFO  baseClass - Browser closed successfully.
+2026-05-06 02:40:14 [TestNG-tests-1] INFO  baseClass - Configuration file loaded successfully.
+2026-05-06 02:40:18 [TestNG-tests-1] INFO  baseClass - Firefox browser launched successfully.
+2026-05-06 02:40:21 [TestNG-tests-1] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-06 02:40:21 [TestNG-tests-1] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-06 02:40:21 [TestNG-tests-1] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@2862ef59
+2026-05-06 02:40:21 [TestNG-tests-1] INFO  ActionDriver - WebDriver instance is created
+2026-05-06 02:40:21 [TestNG-tests-1] INFO  baseClass - ActionDriver instance is created for thread: 32
+2026-05-06 02:40:21 [TestNG-tests-1] INFO  baseClass - Browser setup completed successfully.
+2026-05-06 02:40:21 [TestNG-tests-1] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-06 02:40:22 [TestNG-tests-1] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:40:27 [TestNG-tests-1] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:40:28 [TestNG-tests-1] INFO  baseClass - Browser closed successfully.
+2026-05-06 02:40:28 [TestNG-tests-1] INFO  baseClass - Configuration file loaded successfully.
+2026-05-06 02:40:31 [TestNG-tests-1] INFO  baseClass - Firefox browser launched successfully.
+2026-05-06 02:40:34 [TestNG-tests-1] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-06 02:40:34 [TestNG-tests-1] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-06 02:40:34 [TestNG-tests-1] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@2862ef59
+2026-05-06 02:40:34 [TestNG-tests-1] INFO  ActionDriver - WebDriver instance is created
+2026-05-06 02:40:34 [TestNG-tests-1] INFO  baseClass - ActionDriver instance is created for thread: 32
+2026-05-06 02:40:34 [TestNG-tests-1] INFO  baseClass - Browser setup completed successfully.
+2026-05-06 02:40:34 [TestNG-tests-1] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-06 02:40:35 [TestNG-tests-1] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:40:40 [TestNG-tests-1] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:40:41 [TestNG-tests-1] INFO  baseClass - Browser closed successfully.
+2026-05-06 02:40:41 [TestNG-tests-1] INFO  baseClass - Configuration file loaded successfully.
+2026-05-06 02:40:44 [TestNG-tests-1] INFO  baseClass - Firefox browser launched successfully.
+2026-05-06 02:40:46 [TestNG-tests-1] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-06 02:40:46 [TestNG-tests-1] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-06 02:40:46 [TestNG-tests-1] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@2862ef59
+2026-05-06 02:40:46 [TestNG-tests-1] INFO  ActionDriver - WebDriver instance is created
+2026-05-06 02:40:46 [TestNG-tests-1] INFO  baseClass - ActionDriver instance is created for thread: 32
+2026-05-06 02:40:46 [TestNG-tests-1] INFO  baseClass - Browser setup completed successfully.
+2026-05-06 02:40:46 [TestNG-tests-1] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-06 02:40:47 [TestNG-tests-1] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:40:52 [TestNG-tests-1] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:40:53 [TestNG-tests-1] INFO  baseClass - Browser closed successfully.
+2026-05-06 02:41:09 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-06 02:41:10 [TestNG-test-Dummy Test two-1] INFO  baseClass - Configuration file loaded successfully.
+2026-05-06 02:41:14 [TestNG-test-Dummy Test two-1] INFO  baseClass - Firefox browser launched successfully.
+2026-05-06 02:41:16 [TestNG-test-Dummy Test two-1] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-06 02:41:16 [TestNG-test-Dummy Test two-1] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-06 02:41:16 [TestNG-test-Dummy Test two-1] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@6cba9098
+2026-05-06 02:41:16 [TestNG-test-Dummy Test two-1] INFO  ActionDriver - WebDriver instance is created
+2026-05-06 02:41:16 [TestNG-test-Dummy Test two-1] INFO  baseClass - ActionDriver instance is created for thread: 32
+2026-05-06 02:41:16 [TestNG-test-Dummy Test two-1] INFO  baseClass - Browser setup completed successfully.
+2026-05-06 02:41:16 [TestNG-test-Dummy Test two-1] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-06 02:41:17 [TestNG-test-Dummy Test two-1] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:41:22 [TestNG-test-Dummy Test two-1] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:41:23 [TestNG-test-Dummy Test two-1] INFO  baseClass - Browser closed successfully.
+2026-05-06 02:41:23 [TestNG-test-Dummy Test two-1] INFO  baseClass - Configuration file loaded successfully.
+2026-05-06 02:41:26 [TestNG-test-Dummy Test two-1] INFO  baseClass - Firefox browser launched successfully.
+2026-05-06 02:41:29 [TestNG-test-Dummy Test two-1] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-06 02:41:29 [TestNG-test-Dummy Test two-1] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-06 02:41:29 [TestNG-test-Dummy Test two-1] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@6cba9098
+2026-05-06 02:41:29 [TestNG-test-Dummy Test two-1] INFO  ActionDriver - WebDriver instance is created
+2026-05-06 02:41:29 [TestNG-test-Dummy Test two-1] INFO  baseClass - ActionDriver instance is created for thread: 32
+2026-05-06 02:41:29 [TestNG-test-Dummy Test two-1] INFO  baseClass - Browser setup completed successfully.
+2026-05-06 02:41:29 [TestNG-test-Dummy Test two-1] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-06 02:41:30 [TestNG-test-Dummy Test two-1] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:41:35 [TestNG-test-Dummy Test two-1] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:41:36 [TestNG-test-Dummy Test two-1] INFO  baseClass - Browser closed successfully.
+2026-05-06 02:41:36 [TestNG-test-Dummy Test two-1] INFO  baseClass - Configuration file loaded successfully.
+2026-05-06 02:41:39 [TestNG-test-Dummy Test two-1] INFO  baseClass - Firefox browser launched successfully.
+2026-05-06 02:41:42 [TestNG-test-Dummy Test two-1] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-06 02:41:42 [TestNG-test-Dummy Test two-1] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-06 02:41:42 [TestNG-test-Dummy Test two-1] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@6cba9098
+2026-05-06 02:41:42 [TestNG-test-Dummy Test two-1] INFO  ActionDriver - WebDriver instance is created
+2026-05-06 02:41:42 [TestNG-test-Dummy Test two-1] INFO  baseClass - ActionDriver instance is created for thread: 32
+2026-05-06 02:41:42 [TestNG-test-Dummy Test two-1] INFO  baseClass - Browser setup completed successfully.
+2026-05-06 02:41:42 [TestNG-test-Dummy Test two-1] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-06 02:42:25 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-06 02:42:25 [TestNG-methods-4] INFO  baseClass - Configuration file loaded successfully.
+2026-05-06 02:42:25 [TestNG-methods-1] INFO  baseClass - Configuration file loaded successfully.
+2026-05-06 02:42:25 [TestNG-methods-5] INFO  baseClass - Configuration file loaded successfully.
+2026-05-06 02:42:25 [TestNG-methods-3] INFO  baseClass - Configuration file loaded successfully.
+2026-05-06 02:42:25 [TestNG-methods-2] INFO  baseClass - Configuration file loaded successfully.
+2026-05-06 02:42:33 [TestNG-methods-4] INFO  baseClass - Firefox browser launched successfully.
+2026-05-06 02:42:34 [TestNG-methods-1] INFO  baseClass - Firefox browser launched successfully.
+2026-05-06 02:42:34 [TestNG-methods-2] INFO  baseClass - Firefox browser launched successfully.
+2026-05-06 02:42:35 [TestNG-methods-3] INFO  baseClass - Firefox browser launched successfully.
+2026-05-06 02:42:37 [TestNG-methods-4] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-06 02:42:37 [TestNG-methods-4] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-06 02:42:37 [TestNG-methods-4] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@28b3d769
+2026-05-06 02:42:38 [TestNG-methods-4] INFO  ActionDriver - WebDriver instance is created
+2026-05-06 02:42:38 [TestNG-methods-4] INFO  baseClass - ActionDriver instance is created for thread: 38
+2026-05-06 02:42:38 [TestNG-methods-4] INFO  baseClass - Browser setup completed successfully.
+2026-05-06 02:42:38 [TestNG-methods-4] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-06 02:42:38 [TestNG-methods-1] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-06 02:42:38 [TestNG-methods-1] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-06 02:42:38 [TestNG-methods-1] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@28b3d769
+2026-05-06 02:42:38 [TestNG-methods-1] INFO  ActionDriver - WebDriver instance is created
+2026-05-06 02:42:38 [TestNG-methods-1] INFO  baseClass - ActionDriver instance is created for thread: 35
+2026-05-06 02:42:38 [TestNG-methods-1] INFO  baseClass - Browser setup completed successfully.
+2026-05-06 02:42:38 [TestNG-methods-1] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-06 02:42:38 [TestNG-methods-3] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-06 02:42:38 [TestNG-methods-3] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-06 02:42:38 [TestNG-methods-3] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@28b3d769
+2026-05-06 02:42:38 [TestNG-methods-3] INFO  ActionDriver - WebDriver instance is created
+2026-05-06 02:42:38 [TestNG-methods-2] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-06 02:42:38 [TestNG-methods-2] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-06 02:42:38 [TestNG-methods-3] INFO  baseClass - ActionDriver instance is created for thread: 37
+2026-05-06 02:42:38 [TestNG-methods-2] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@28b3d769
+2026-05-06 02:42:38 [TestNG-methods-3] INFO  baseClass - Browser setup completed successfully.
+2026-05-06 02:42:38 [TestNG-methods-2] INFO  ActionDriver - WebDriver instance is created
+2026-05-06 02:42:38 [TestNG-methods-2] INFO  baseClass - ActionDriver instance is created for thread: 36
+2026-05-06 02:42:38 [TestNG-methods-2] INFO  baseClass - Browser setup completed successfully.
+2026-05-06 02:42:38 [TestNG-methods-3] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-06 02:42:38 [TestNG-methods-2] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-06 02:42:40 [TestNG-methods-5] INFO  baseClass - Firefox browser launched successfully.
+2026-05-06 02:42:42 [TestNG-methods-1] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:42:42 [TestNG-methods-4] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:42:43 [TestNG-methods-3] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:42:43 [TestNG-methods-5] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-06 02:42:43 [TestNG-methods-5] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-06 02:42:43 [TestNG-methods-5] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@28b3d769
+2026-05-06 02:42:43 [TestNG-methods-5] INFO  ActionDriver - WebDriver instance is created
+2026-05-06 02:42:43 [TestNG-methods-5] INFO  baseClass - ActionDriver instance is created for thread: 39
+2026-05-06 02:42:43 [TestNG-methods-5] INFO  baseClass - Browser setup completed successfully.
+2026-05-06 02:42:43 [TestNG-methods-5] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-06 02:42:45 [TestNG-methods-5] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:42:47 [TestNG-methods-4] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:42:47 [TestNG-methods-1] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:42:48 [TestNG-methods-2] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:42:48 [TestNG-methods-3] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:42:48 [TestNG-methods-4] INFO  baseClass - Browser closed successfully.
+2026-05-06 02:42:48 [TestNG-methods-1] INFO  baseClass - Browser closed successfully.
+2026-05-06 02:42:49 [TestNG-methods-2] INFO  baseClass - Browser closed successfully.
+2026-05-06 02:42:49 [TestNG-methods-3] INFO  baseClass - Browser closed successfully.
+2026-05-06 02:42:50 [TestNG-methods-5] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-06 02:42:51 [TestNG-methods-5] INFO  baseClass - Browser closed successfully.
+2026-05-20 01:49:58 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-20 01:53:48 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-20 01:57:09 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-20 01:57:52 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-20 01:59:34 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-20 02:03:52 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-20 02:06:39 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-20 02:08:56 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-20 02:14:22 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-20 02:15:29 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-20 02:15:29 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-20 02:15:38 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-20 02:15:41 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-20 02:15:41 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-20 02:15:41 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@6d91790b
+2026-05-20 02:15:41 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-20 02:15:41 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-20 02:15:41 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-20 02:15:41 [main] INFO  HomePage - Attempting to click the Class Attribute button...
+2026-05-20 02:15:42 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-20 02:15:44 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-20 02:15:44 [main] INFO  HomePage - Alert text: Primary button pressed
+2026-05-20 02:15:46 [main] INFO  baseClass - Browser closed successfully.
+2026-05-20 02:15:46 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-20 02:15:48 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-20 02:15:49 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-20 02:15:49 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-20 02:15:49 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@6d91790b
+2026-05-20 02:15:49 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-20 02:15:49 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-20 02:15:49 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-20 02:15:49 [main] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-20 02:15:52 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-20 02:15:57 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-20 02:15:57 [main] INFO  baseClass - Browser closed successfully.
+2026-05-20 02:18:18 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-20 02:18:18 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-20 02:18:20 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-20 02:18:22 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-20 02:18:22 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-20 02:18:22 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@a567e72
+2026-05-20 02:18:22 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-20 02:18:22 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-20 02:18:22 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-20 02:18:22 [main] INFO  HomePage - Attempting to click the Class Attribute button...
+2026-05-20 02:18:23 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-20 02:18:25 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-20 02:18:25 [main] INFO  HomePage - Alert text: Primary button pressed
+2026-05-20 02:18:26 [main] INFO  baseClass - Browser closed successfully.
+2026-05-20 02:18:26 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-20 02:18:27 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-20 02:18:29 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-20 02:18:29 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-20 02:18:29 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@a567e72
+2026-05-20 02:18:29 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-20 02:18:29 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-20 02:18:29 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-20 02:18:29 [main] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-20 02:18:30 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-20 02:18:36 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-20 02:18:36 [main] INFO  baseClass - Browser closed successfully.
+2026-05-20 02:19:35 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-20 02:19:35 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-20 02:19:37 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-20 02:19:42 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-20 02:19:42 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-20 02:19:42 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@72805168
+2026-05-20 02:19:42 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-20 02:19:42 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-20 02:19:42 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-20 02:19:42 [main] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-20 02:19:42 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-20 02:19:48 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-20 02:19:48 [main] INFO  baseClass - Browser closed successfully.
+2026-05-20 02:22:01 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-20 02:22:02 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-20 02:22:03 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-20 02:22:05 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-20 02:22:05 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-20 02:22:05 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@4b1c0397
+2026-05-20 02:22:05 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-20 02:22:05 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-20 02:22:05 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-20 02:22:05 [main] INFO  HomePage - Attempting to click the Class Attribute button...
+2026-05-20 02:22:06 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-20 02:22:08 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-20 02:22:08 [main] INFO  HomePage - Alert text: Primary button pressed
+2026-05-20 02:22:09 [main] INFO  baseClass - Browser closed successfully.
+2026-05-21 00:52:27 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 00:52:27 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 00:52:29 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-21 00:52:32 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-21 00:52:32 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-21 00:52:32 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@a567e72
+2026-05-21 00:52:32 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-21 00:52:32 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-21 00:52:32 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-21 00:52:32 [main] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-21 00:52:33 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-21 00:52:38 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-21 00:52:39 [main] INFO  baseClass - Browser closed successfully.
+2026-05-21 00:54:14 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 00:54:14 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 00:54:16 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-21 00:54:18 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-21 00:54:18 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-21 00:54:18 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@1a5b8489
+2026-05-21 00:54:18 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-21 00:54:18 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-21 00:54:18 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-21 00:54:18 [main] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-21 00:54:19 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-21 00:54:24 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-21 00:54:25 [main] INFO  baseClass - Browser closed successfully.
+2026-05-21 00:55:03 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 00:55:03 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 00:55:05 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-21 00:55:07 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-21 00:55:07 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-21 00:55:07 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@1a5b8489
+2026-05-21 00:55:07 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-21 00:55:07 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-21 00:55:07 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-21 00:55:07 [main] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-21 00:55:08 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-21 00:55:13 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-21 00:55:13 [main] INFO  baseClass - Browser closed successfully.
+2026-05-21 00:55:59 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 00:55:59 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 00:56:01 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-21 00:56:03 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-21 00:56:03 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-21 00:56:03 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@a567e72
+2026-05-21 00:56:03 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-21 00:56:03 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-21 00:56:03 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-21 00:56:03 [main] INFO  HomePage - Attempting to click the Class Attribute button...
+2026-05-21 00:56:04 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-21 00:56:06 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-21 00:56:06 [main] INFO  HomePage - Alert text: Primary button pressed
+2026-05-21 00:56:07 [main] INFO  baseClass - Browser closed successfully.
+2026-05-21 00:56:56 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 00:56:56 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 00:56:58 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-21 00:57:00 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-21 00:57:00 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-21 00:57:00 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@1a5b8489
+2026-05-21 00:57:00 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-21 00:57:00 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-21 00:57:00 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-21 00:57:00 [main] INFO  HomePage - Attempting to click the Class Attribute button...
+2026-05-21 00:57:01 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-21 00:57:03 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-21 00:57:04 [main] INFO  HomePage - Alert text: Primary button pressed
+2026-05-21 00:57:05 [main] INFO  baseClass - Browser closed successfully.
+2026-05-21 00:58:29 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 00:58:29 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 00:58:31 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-21 00:58:33 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-21 00:58:33 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-21 00:58:33 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@6a84bc2a
+2026-05-21 00:58:33 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-21 00:58:33 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-21 00:58:33 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-21 00:58:36 [main] INFO  baseClass - Browser closed successfully.
+2026-05-21 00:59:41 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 00:59:41 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 00:59:42 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-21 00:59:45 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-21 00:59:45 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-21 00:59:45 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@6a84bc2a
+2026-05-21 00:59:45 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-21 00:59:45 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-21 00:59:45 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-21 00:59:47 [main] INFO  baseClass - Browser closed successfully.
+2026-05-21 01:00:05 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 01:00:05 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 01:00:07 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-21 01:00:08 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-21 01:00:08 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-21 01:00:08 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@2c779e5
+2026-05-21 01:00:08 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-21 01:00:08 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-21 01:00:08 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-21 01:00:10 [main] INFO  baseClass - Browser closed successfully.
+2026-05-21 01:15:40 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 01:15:40 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 01:15:42 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-21 01:15:45 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-21 01:15:45 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-21 01:15:45 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@a567e72
+2026-05-21 01:15:45 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-21 01:15:45 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-21 01:15:45 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-21 01:15:45 [main] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-21 01:15:46 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-21 01:15:51 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-21 01:15:52 [main] INFO  baseClass - Browser closed successfully.
+2026-05-21 01:16:32 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 01:16:32 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 01:16:33 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-21 01:16:36 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-21 01:16:36 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-21 01:16:36 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@1a5b8489
+2026-05-21 01:16:36 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-21 01:16:36 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-21 01:16:36 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-21 01:16:36 [main] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-21 01:16:37 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-21 01:16:42 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-21 01:16:43 [main] INFO  baseClass - Browser closed successfully.
+2026-05-21 01:17:11 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 01:17:11 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-21 01:17:13 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-21 01:17:15 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-21 01:17:15 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-21 01:17:15 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@1a5b8489
+2026-05-21 01:17:15 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-21 01:17:15 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-21 01:17:15 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-21 01:17:15 [main] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-21 01:17:16 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-21 01:18:23 [main] INFO  baseClass - Browser closed successfully.
+2026-05-24 13:19:29 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-24 13:19:30 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-24 13:19:41 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-24 13:19:44 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-24 13:19:44 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-24 13:19:44 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@a567e72
+2026-05-24 13:19:44 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-24 13:19:44 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-24 13:19:44 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-24 13:19:44 [main] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-24 13:19:45 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-24 13:20:52 [main] INFO  baseClass - Browser closed successfully.
+2026-05-24 13:22:45 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-24 13:22:46 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-24 13:22:48 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-24 13:22:50 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-24 13:22:50 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-24 13:22:50 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@a567e72
+2026-05-24 13:22:50 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-24 13:22:50 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-24 13:22:50 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-24 13:22:51 [main] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-24 13:22:51 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-24 13:22:57 [main] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-24 13:22:58 [main] INFO  baseClass - Browser closed successfully.
+2026-05-24 14:18:52 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-24 14:18:52 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-24 14:18:56 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-24 14:18:58 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-24 14:18:58 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-24 14:18:58 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@2c779e5
+2026-05-24 14:18:58 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-24 14:18:58 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-24 14:18:58 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-24 14:19:00 [main] INFO  baseClass - Browser closed successfully.
+2026-05-24 14:20:08 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-24 14:20:08 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-24 14:20:11 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-24 14:20:13 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-24 14:20:13 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-24 14:20:13 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@2c779e5
+2026-05-24 14:20:13 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-24 14:20:13 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-24 14:20:13 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-24 14:20:15 [main] INFO  baseClass - Browser closed successfully.
+2026-05-24 14:21:19 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-24 14:21:19 [TestNG-test-Dummy Test-2] INFO  baseClass - Configuration file loaded successfully.
+2026-05-24 14:21:19 [TestNG-test-Dummy Test-1] INFO  baseClass - Configuration file loaded successfully.
+2026-05-24 14:21:22 [TestNG-test-Dummy Test-2] INFO  baseClass - Chrome browser launched successfully.
+2026-05-24 14:21:22 [TestNG-test-Dummy Test-1] INFO  baseClass - Chrome browser launched successfully.
+2026-05-24 14:21:25 [TestNG-test-Dummy Test-1] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-24 14:21:25 [TestNG-test-Dummy Test-1] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-24 14:21:25 [TestNG-test-Dummy Test-1] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@7ab25cff
+2026-05-24 14:21:25 [TestNG-test-Dummy Test-1] INFO  ActionDriver - WebDriver instance is created
+2026-05-24 14:21:25 [TestNG-test-Dummy Test-1] INFO  baseClass - ActionDriver instance is created for thread: 41
+2026-05-24 14:21:25 [TestNG-test-Dummy Test-1] INFO  baseClass - Browser setup completed successfully.
+2026-05-24 14:21:25 [TestNG-test-Dummy Test-2] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-24 14:21:25 [TestNG-test-Dummy Test-2] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-24 14:21:25 [TestNG-test-Dummy Test-2] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@7ab25cff
+2026-05-24 14:21:25 [TestNG-test-Dummy Test-2] INFO  ActionDriver - WebDriver instance is created
+2026-05-24 14:21:25 [TestNG-test-Dummy Test-2] INFO  baseClass - ActionDriver instance is created for thread: 42
+2026-05-24 14:21:25 [TestNG-test-Dummy Test-2] INFO  baseClass - Browser setup completed successfully.
+2026-05-24 14:21:27 [TestNG-test-Dummy Test-1] INFO  baseClass - Browser closed successfully.
+2026-05-24 14:21:28 [TestNG-test-Dummy Test-2] INFO  baseClass - Browser closed successfully.
+2026-05-24 14:21:28 [TestNG-test-Dummy Test two-1] INFO  baseClass - Configuration file loaded successfully.
+2026-05-24 14:21:29 [TestNG-test-Dummy Test two-1] INFO  baseClass - Chrome browser launched successfully.
+2026-05-24 14:21:31 [TestNG-test-Dummy Test two-1] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-24 14:21:31 [TestNG-test-Dummy Test two-1] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-24 14:21:31 [TestNG-test-Dummy Test two-1] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@7ab25cff
+2026-05-24 14:21:31 [TestNG-test-Dummy Test two-1] INFO  ActionDriver - WebDriver instance is created
+2026-05-24 14:21:31 [TestNG-test-Dummy Test two-1] INFO  baseClass - ActionDriver instance is created for thread: 81
+2026-05-24 14:21:31 [TestNG-test-Dummy Test two-1] INFO  baseClass - Browser setup completed successfully.
+2026-05-24 14:21:31 [TestNG-test-Dummy Test two-2] INFO  baseClass - Configuration file loaded successfully.
+2026-05-24 14:21:31 [TestNG-test-Dummy Test two-1] INFO  HomePage - Attempting to click the Class Attribute button...
+2026-05-24 14:21:32 [TestNG-test-Dummy Test two-1] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-24 14:21:33 [TestNG-test-Dummy Test two-2] INFO  baseClass - Chrome browser launched successfully.
+2026-05-24 14:21:35 [TestNG-test-Dummy Test two-2] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-24 14:21:35 [TestNG-test-Dummy Test two-2] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-24 14:21:35 [TestNG-test-Dummy Test two-2] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@7ab25cff
+2026-05-24 14:21:35 [TestNG-test-Dummy Test two-2] INFO  ActionDriver - WebDriver instance is created
+2026-05-24 14:21:35 [TestNG-test-Dummy Test two-2] INFO  baseClass - ActionDriver instance is created for thread: 82
+2026-05-24 14:21:35 [TestNG-test-Dummy Test two-2] INFO  baseClass - Browser setup completed successfully.
+2026-05-24 14:21:35 [TestNG-test-Dummy Test two-1] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-24 14:21:35 [TestNG-test-Dummy Test two-2] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-24 14:21:35 [TestNG-test-Dummy Test two-1] INFO  HomePage - Alert text: Primary button pressed
+2026-05-24 14:21:36 [TestNG-test-Dummy Test two-2] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-24 14:21:36 [TestNG-test-Dummy Test two-1] INFO  baseClass - Browser closed successfully.
+2026-05-24 14:21:41 [TestNG-test-Dummy Test two-2] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-24 14:21:42 [TestNG-test-Dummy Test two-2] INFO  baseClass - Browser closed successfully.
+2026-05-24 14:25:39 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-24 14:25:39 [TestNG-test-Dummy Test two-4] INFO  baseClass - Configuration file loaded successfully.
+2026-05-24 14:25:39 [TestNG-test-Dummy Test two-2] INFO  baseClass - Configuration file loaded successfully.
+2026-05-24 14:25:39 [TestNG-test-Dummy Test two-1] INFO  baseClass - Configuration file loaded successfully.
+2026-05-24 14:25:42 [TestNG-test-Dummy Test two-4] INFO  baseClass - Chrome browser launched successfully.
+2026-05-24 14:25:42 [TestNG-test-Dummy Test two-1] INFO  baseClass - Chrome browser launched successfully.
+2026-05-24 14:25:42 [TestNG-test-Dummy Test two-2] INFO  baseClass - Chrome browser launched successfully.
+2026-05-24 14:25:44 [TestNG-test-Dummy Test two-2] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-24 14:25:44 [TestNG-test-Dummy Test two-2] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-24 14:25:44 [TestNG-test-Dummy Test two-2] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@64f81c68
+2026-05-24 14:25:44 [TestNG-test-Dummy Test two-2] INFO  ActionDriver - WebDriver instance is created
+2026-05-24 14:25:44 [TestNG-test-Dummy Test two-2] INFO  baseClass - ActionDriver instance is created for thread: 44
+2026-05-24 14:25:44 [TestNG-test-Dummy Test two-2] INFO  baseClass - Browser setup completed successfully.
+2026-05-24 14:25:45 [TestNG-test-Dummy Test two-4] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-24 14:25:45 [TestNG-test-Dummy Test two-4] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-24 14:25:45 [TestNG-test-Dummy Test two-4] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@64f81c68
+2026-05-24 14:25:45 [TestNG-test-Dummy Test two-4] INFO  ActionDriver - WebDriver instance is created
+2026-05-24 14:25:45 [TestNG-test-Dummy Test two-4] INFO  baseClass - ActionDriver instance is created for thread: 46
+2026-05-24 14:25:45 [TestNG-test-Dummy Test two-4] INFO  baseClass - Browser setup completed successfully.
+2026-05-24 14:25:45 [TestNG-test-Dummy Test two-3] INFO  baseClass - Configuration file loaded successfully.
+2026-05-24 14:25:45 [TestNG-test-Dummy Test two-4] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-24 14:25:45 [TestNG-test-Dummy Test two-1] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-24 14:25:45 [TestNG-test-Dummy Test two-1] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-24 14:25:45 [TestNG-test-Dummy Test two-1] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@64f81c68
+2026-05-24 14:25:45 [TestNG-test-Dummy Test two-1] INFO  ActionDriver - WebDriver instance is created
+2026-05-24 14:25:45 [TestNG-test-Dummy Test two-1] INFO  baseClass - ActionDriver instance is created for thread: 43
+2026-05-24 14:25:45 [TestNG-test-Dummy Test two-1] INFO  baseClass - Browser setup completed successfully.
+2026-05-24 14:25:46 [TestNG-test-Dummy Test two-4] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-24 14:25:47 [TestNG-test-Dummy Test two-3] INFO  baseClass - Chrome browser launched successfully.
+2026-05-24 14:25:48 [TestNG-test-Dummy Test two-2] INFO  baseClass - Browser closed successfully.
+2026-05-24 14:25:48 [TestNG-test-Dummy Test two-1] INFO  baseClass - Browser closed successfully.
+2026-05-24 14:25:48 [TestNG-test-Dummy Test two-3] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-24 14:25:48 [TestNG-test-Dummy Test two-3] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-24 14:25:48 [TestNG-test-Dummy Test two-3] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@64f81c68
+2026-05-24 14:25:48 [TestNG-test-Dummy Test two-3] INFO  ActionDriver - WebDriver instance is created
+2026-05-24 14:25:48 [TestNG-test-Dummy Test two-3] INFO  baseClass - ActionDriver instance is created for thread: 45
+2026-05-24 14:25:48 [TestNG-test-Dummy Test two-3] INFO  baseClass - Browser setup completed successfully.
+2026-05-24 14:25:49 [TestNG-test-Dummy Test two-3] INFO  HomePage - Attempting to click the Class Attribute button...
+2026-05-24 14:25:50 [TestNG-test-Dummy Test two-3] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-24 14:25:51 [TestNG-test-Dummy Test two-4] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-24 14:25:53 [TestNG-test-Dummy Test two-3] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-24 14:25:53 [TestNG-test-Dummy Test two-3] INFO  HomePage - Alert text: Primary button pressed
+2026-05-24 14:25:53 [TestNG-test-Dummy Test two-4] INFO  baseClass - Browser closed successfully.
+2026-05-24 14:25:53 [TestNG-test-Dummy Test two-3] INFO  baseClass - Browser closed successfully.
+2026-05-24 14:29:35 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-24 14:29:35 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-24 14:29:37 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-24 14:29:39 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-24 14:29:39 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-24 14:29:39 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@2c779e5
+2026-05-24 14:29:39 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-24 14:29:39 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-24 14:29:39 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-24 14:29:41 [main] INFO  baseClass - Browser closed successfully.
+2026-05-25 00:42:44 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-25 00:42:44 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-25 00:42:49 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-25 00:42:52 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-25 00:42:52 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-25 00:42:52 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@2c779e5
+2026-05-25 00:42:52 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-25 00:42:52 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-25 00:42:52 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-25 00:42:54 [main] INFO  baseClass - Browser closed successfully.
+2026-05-27 10:10:00 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-27 10:10:01 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-27 10:10:04 [main] INFO  baseClass - Chrome browser launched successfully.
+2026-05-27 10:10:06 [main] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-27 10:10:06 [main] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-27 10:10:06 [main] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@6a84bc2a
+2026-05-27 10:10:06 [main] INFO  ActionDriver - WebDriver instance is created
+2026-05-27 10:10:06 [main] INFO  baseClass - ActionDriver instance is created for thread: 1
+2026-05-27 10:10:06 [main] INFO  baseClass - Browser setup completed successfully.
+2026-05-27 10:10:09 [main] INFO  baseClass - Browser closed successfully.
+2026-05-27 10:10:37 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-27 10:10:38 [TestNG-test-Dummy Test two-4] INFO  baseClass - Configuration file loaded successfully.
+2026-05-27 10:10:38 [TestNG-test-Dummy Test two-1] INFO  baseClass - Configuration file loaded successfully.
+2026-05-27 10:10:38 [TestNG-test-Dummy Test two-2] INFO  baseClass - Configuration file loaded successfully.
+2026-05-27 10:10:42 [TestNG-test-Dummy Test two-2] INFO  baseClass - Chrome browser launched successfully.
+2026-05-27 10:10:42 [TestNG-test-Dummy Test two-4] INFO  baseClass - Chrome browser launched successfully.
+2026-05-27 10:10:42 [TestNG-test-Dummy Test two-1] INFO  baseClass - Chrome browser launched successfully.
+2026-05-27 10:10:44 [TestNG-test-Dummy Test two-4] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-27 10:10:44 [TestNG-test-Dummy Test two-4] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-27 10:10:44 [TestNG-test-Dummy Test two-4] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@20de08a8
+2026-05-27 10:10:44 [TestNG-test-Dummy Test two-4] INFO  ActionDriver - WebDriver instance is created
+2026-05-27 10:10:44 [TestNG-test-Dummy Test two-4] INFO  baseClass - ActionDriver instance is created for thread: 46
+2026-05-27 10:10:44 [TestNG-test-Dummy Test two-4] INFO  baseClass - Browser setup completed successfully.
+2026-05-27 10:10:44 [TestNG-test-Dummy Test two-3] INFO  baseClass - Configuration file loaded successfully.
+2026-05-27 10:10:44 [TestNG-test-Dummy Test two-1] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-27 10:10:44 [TestNG-test-Dummy Test two-1] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-27 10:10:44 [TestNG-test-Dummy Test two-1] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@20de08a8
+2026-05-27 10:10:44 [TestNG-test-Dummy Test two-1] INFO  ActionDriver - WebDriver instance is created
+2026-05-27 10:10:44 [TestNG-test-Dummy Test two-1] INFO  baseClass - ActionDriver instance is created for thread: 43
+2026-05-27 10:10:44 [TestNG-test-Dummy Test two-1] INFO  baseClass - Browser setup completed successfully.
+2026-05-27 10:10:44 [TestNG-test-Dummy Test two-2] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-27 10:10:44 [TestNG-test-Dummy Test two-2] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-27 10:10:44 [TestNG-test-Dummy Test two-2] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@20de08a8
+2026-05-27 10:10:44 [TestNG-test-Dummy Test two-2] INFO  ActionDriver - WebDriver instance is created
+2026-05-27 10:10:44 [TestNG-test-Dummy Test two-2] INFO  baseClass - ActionDriver instance is created for thread: 44
+2026-05-27 10:10:44 [TestNG-test-Dummy Test two-2] INFO  baseClass - Browser setup completed successfully.
+2026-05-27 10:10:45 [TestNG-test-Dummy Test two-4] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-27 10:10:46 [TestNG-test-Dummy Test two-3] INFO  baseClass - Chrome browser launched successfully.
+2026-05-27 10:10:46 [TestNG-test-Dummy Test two-4] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-27 10:10:47 [TestNG-test-Dummy Test two-3] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-27 10:10:47 [TestNG-test-Dummy Test two-3] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-27 10:10:47 [TestNG-test-Dummy Test two-3] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@20de08a8
+2026-05-27 10:10:47 [TestNG-test-Dummy Test two-3] INFO  ActionDriver - WebDriver instance is created
+2026-05-27 10:10:47 [TestNG-test-Dummy Test two-3] INFO  baseClass - ActionDriver instance is created for thread: 45
+2026-05-27 10:10:47 [TestNG-test-Dummy Test two-3] INFO  baseClass - Browser setup completed successfully.
+2026-05-27 10:10:48 [TestNG-test-Dummy Test two-1] INFO  baseClass - Browser closed successfully.
+2026-05-27 10:10:48 [TestNG-test-Dummy Test two-2] INFO  baseClass - Browser closed successfully.
+2026-05-27 10:10:49 [TestNG-test-Dummy Test two-3] INFO  HomePage - Attempting to click the Class Attribute button...
+2026-05-27 10:10:50 [TestNG-test-Dummy Test two-3] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-27 10:10:52 [TestNG-test-Dummy Test two-4] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-27 10:10:53 [TestNG-test-Dummy Test two-3] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-27 10:10:53 [TestNG-test-Dummy Test two-3] INFO  HomePage - Alert text: Primary button pressed
+2026-05-27 10:10:53 [TestNG-test-Dummy Test two-4] INFO  baseClass - Browser closed successfully.
+2026-05-27 10:10:54 [TestNG-test-Dummy Test two-3] INFO  baseClass - Browser closed successfully.
+2026-05-27 10:13:22 [main] INFO  baseClass - Configuration file loaded successfully.
+2026-05-27 10:13:22 [TestNG-test-Dummy Test two-2] INFO  baseClass - Configuration file loaded successfully.
+2026-05-27 10:13:22 [TestNG-test-Dummy Test two-1] INFO  baseClass - Configuration file loaded successfully.
+2026-05-27 10:13:22 [TestNG-test-Dummy Test two-4] INFO  baseClass - Configuration file loaded successfully.
+2026-05-27 10:13:26 [TestNG-test-Dummy Test two-4] INFO  baseClass - Chrome browser launched successfully.
+2026-05-27 10:13:26 [TestNG-test-Dummy Test two-1] INFO  baseClass - Chrome browser launched successfully.
+2026-05-27 10:13:26 [TestNG-test-Dummy Test two-2] INFO  baseClass - Chrome browser launched successfully.
+2026-05-27 10:13:27 [TestNG-test-Dummy Test two-1] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-27 10:13:27 [TestNG-test-Dummy Test two-1] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-27 10:13:27 [TestNG-test-Dummy Test two-1] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@5c286234
+2026-05-27 10:13:27 [TestNG-test-Dummy Test two-1] INFO  ActionDriver - WebDriver instance is created
+2026-05-27 10:13:27 [TestNG-test-Dummy Test two-1] INFO  baseClass - ActionDriver instance is created for thread: 43
+2026-05-27 10:13:27 [TestNG-test-Dummy Test two-1] INFO  baseClass - Browser setup completed successfully.
+2026-05-27 10:13:27 [TestNG-test-Dummy Test two-4] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-27 10:13:27 [TestNG-test-Dummy Test two-4] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-27 10:13:27 [TestNG-test-Dummy Test two-4] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@5c286234
+2026-05-27 10:13:27 [TestNG-test-Dummy Test two-4] INFO  ActionDriver - WebDriver instance is created
+2026-05-27 10:13:27 [TestNG-test-Dummy Test two-4] INFO  baseClass - ActionDriver instance is created for thread: 46
+2026-05-27 10:13:27 [TestNG-test-Dummy Test two-4] INFO  baseClass - Browser setup completed successfully.
+2026-05-27 10:13:27 [TestNG-test-Dummy Test two-3] INFO  baseClass - Configuration file loaded successfully.
+2026-05-27 10:13:27 [TestNG-test-Dummy Test two-2] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-27 10:13:27 [TestNG-test-Dummy Test two-2] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-27 10:13:27 [TestNG-test-Dummy Test two-2] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@5c286234
+2026-05-27 10:13:27 [TestNG-test-Dummy Test two-2] INFO  ActionDriver - WebDriver instance is created
+2026-05-27 10:13:27 [TestNG-test-Dummy Test two-2] INFO  baseClass - ActionDriver instance is created for thread: 44
+2026-05-27 10:13:27 [TestNG-test-Dummy Test two-2] INFO  baseClass - Browser setup completed successfully.
+2026-05-27 10:13:29 [TestNG-test-Dummy Test two-3] INFO  baseClass - Chrome browser launched successfully.
+2026-05-27 10:13:29 [TestNG-test-Dummy Test two-4] INFO  HomePage - Attempting to click the Dynamic ID button...
+2026-05-27 10:13:30 [TestNG-test-Dummy Test two-3] INFO  baseClass - webdriver initialized and browser configured successfully.
+2026-05-27 10:13:30 [TestNG-test-Dummy Test two-3] TRACE baseClass - Trace: WebDriver setup completed in setup() method.
+2026-05-27 10:13:30 [TestNG-test-Dummy Test two-3] DEBUG baseClass - Debug: WebDriver instance created: java.lang.ThreadLocal@5c286234
+2026-05-27 10:13:30 [TestNG-test-Dummy Test two-3] INFO  ActionDriver - WebDriver instance is created
+2026-05-27 10:13:30 [TestNG-test-Dummy Test two-3] INFO  baseClass - ActionDriver instance is created for thread: 45
+2026-05-27 10:13:30 [TestNG-test-Dummy Test two-3] INFO  baseClass - Browser setup completed successfully.
+2026-05-27 10:13:31 [TestNG-test-Dummy Test two-1] INFO  baseClass - Browser closed successfully.
+2026-05-27 10:13:32 [TestNG-test-Dummy Test two-4] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-27 10:13:32 [TestNG-test-Dummy Test two-3] INFO  HomePage - Attempting to click the Class Attribute button...
+2026-05-27 10:13:32 [TestNG-test-Dummy Test two-2] INFO  baseClass - Browser closed successfully.
+2026-05-27 10:13:32 [TestNG-test-Dummy Test two-3] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-27 10:13:35 [TestNG-test-Dummy Test two-3] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-27 10:13:35 [TestNG-test-Dummy Test two-3] INFO  HomePage - Alert text: Primary button pressed
+2026-05-27 10:13:36 [TestNG-test-Dummy Test two-3] INFO  baseClass - Browser closed successfully.
+2026-05-27 10:13:37 [TestNG-test-Dummy Test two-4] INFO  ActionDriver - Clicked on element: Element with name:
+2026-05-27 10:13:38 [TestNG-test-Dummy Test two-4] INFO  baseClass - Browser closed successfully.

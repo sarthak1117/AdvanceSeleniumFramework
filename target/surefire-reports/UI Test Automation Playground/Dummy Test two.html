@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Dummy Test two</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Wed May 06 02:17:13 IST 2026</td>
+<td>Started on:</td><td>Wed May 27 10:13:22 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>25 seconds (25665 ms)</td>
+<tr><td>Total time:</td><td>15 seconds (15657 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -78,13 +78,58 @@ function toggleAllBoxes() {
 <tr>
 <td title='tests.UITestClass.testClassAttribute()'><b>testClassAttribute</b><br>Test class: tests.UITestClass</td>
 <td></td>
-<td>3</td>
-<td>tests.UITestClass@3406472c</td></tr>
+<td>5</td>
+<td>tests.UITestClass@46271dd6</td></tr>
 <tr>
 <td title='tests.UITestClass.testDynamicID()'><b>testDynamicID</b><br>Test class: tests.UITestClass</td>
 <td></td>
-<td>6</td>
-<td>tests.UITestClass@3406472c</td></tr>
+<td>10</td>
+<td>tests.UITestClass@46271dd6</td></tr>
+<tr>
+<td title='tests.DummyClass2.dummyMethod()'><b>dummyMethod</b><br>Test class: tests.DummyClass2</td>
+<td></td>
+<td>4</td>
+<td>tests.DummyClass2@1ef6d34c</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.DummyClass.dummyMethod()'><b>dummyMethod</b><br>Test class: tests.DummyClass</td>
+<td><div><pre>org.testng.SkipException: Skipping the test as part of Testing
+	at tests.DummyClass.dummyMethod(DummyClass.java:27)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace974145883", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace974145883'><pre>org.testng.SkipException: Skipping the test as part of Testing
+	at tests.DummyClass.dummyMethod(DummyClass.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+</pre></div></td>
+<td>2</td>
+<td>tests.DummyClass@1b8a29df</td></tr>
 </table><p>
 </body>
 </html>

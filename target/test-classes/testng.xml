@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="UI Test Automation Playground" parallel="tests" thread-count="5">
-    <test name="Dummy Test">
+<suite name="UI Test Automation Playground" parallel="methods" thread-count="5">
+    <!-- <test name="Dummy Test">
+        <parameter name="browserName" value="chrome" />
+        <classes>
+            
+        </classes>
+    </test> -->
+    <test name="Dummy Test two">
         <parameter name="browserName" value="chrome" />
         <classes>
             <class name="tests.DummyClass"/>
             <class name="tests.DummyClass2"/>
-        </classes>
-    </test>
-    <test name="Dummy Test two">
-        <parameter name="browserName" value="firefox" />
-        <classes>
             <class name="tests.UITestClass"/>
         </classes>
     </test>                 

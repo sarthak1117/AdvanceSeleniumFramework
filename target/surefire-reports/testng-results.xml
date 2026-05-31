@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-06T02:17:13 IST" name="UI Test Automation Playground" finished-at="2026-05-06T02:17:39 IST" duration-ms="25665">
+  <suite started-at="2026-05-27T10:13:22 IST" name="UI Test Automation Playground" finished-at="2026-05-27T10:13:38 IST" duration-ms="15657">
     <groups>
     </groups>
-    <test started-at="2026-05-06T02:17:13 IST" name="Dummy Test" finished-at="2026-05-06T02:17:29 IST" duration-ms="16439">
+    <test started-at="2026-05-27T10:13:22 IST" name="Dummy Test two" finished-at="2026-05-27T10:13:38 IST" duration-ms="15657">
       <class name="tests.DummyClass">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.DummyClass@3e2059ae]" started-at="2026-05-06T02:17:13 IST" name="setup" finished-at="2026-05-06T02:17:19 IST" duration-ms="5595" status="PASS">
+        <test-method is-config="true" signature="loadconfig()[pri:0, instance:tests.DummyClass@1b8a29df]" started-at="2026-05-27T10:13:22 IST" name="loadconfig" finished-at="2026-05-27T10:13:22 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadconfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.DummyClass@1b8a29df]" started-at="2026-05-27T10:13:22 IST" name="setup" finished-at="2026-05-27T10:13:27 IST" duration-ms="4907" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +22,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dummyMethod()[pri:0, instance:tests.DummyClass@3e2059ae]" started-at="2026-05-06T02:17:19 IST" name="dummyMethod" finished-at="2026-05-06T02:17:21 IST" duration-ms="2052" status="PASS">
+        <test-method signature="dummyMethod()[pri:0, instance:tests.DummyClass@1b8a29df]" started-at="2026-05-27T10:13:27 IST" name="dummyMethod" finished-at="2026-05-27T10:13:29 IST" duration-ms="2369" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as part of Testing]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as part of Testing
+at tests.DummyClass.dummyMethod(DummyClass.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+at java.base/java.lang.Thread.run(Thread.java:1447)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dummyMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DummyClass@3e2059ae]" started-at="2026-05-06T02:17:21 IST" name="tearDown" finished-at="2026-05-06T02:17:21 IST" duration-ms="361" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DummyClass@1b8a29df]" started-at="2026-05-27T10:13:29 IST" name="tearDown" finished-at="2026-05-27T10:13:31 IST" duration-ms="2151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.DummyClass -->
       <class name="tests.DummyClass2">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.DummyClass2@4fbe37eb]" started-at="2026-05-06T02:17:21 IST" name="setup" finished-at="2026-05-06T02:17:27 IST" duration-ms="5580" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.DummyClass2@1ef6d34c]" started-at="2026-05-27T10:13:22 IST" name="setup" finished-at="2026-05-27T10:13:27 IST" duration-ms="5209" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,65 +69,59 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dummyMethod()[pri:0, instance:tests.DummyClass2@4fbe37eb]" started-at="2026-05-06T02:17:27 IST" name="dummyMethod" finished-at="2026-05-06T02:17:29 IST" duration-ms="2045" status="PASS">
+        <test-method signature="dummyMethod()[pri:0, instance:tests.DummyClass2@1ef6d34c]" started-at="2026-05-27T10:13:27 IST" name="dummyMethod" finished-at="2026-05-27T10:13:32 IST" duration-ms="4369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dummyMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DummyClass2@4fbe37eb]" started-at="2026-05-06T02:17:29 IST" name="tearDown" finished-at="2026-05-06T02:17:29 IST" duration-ms="753" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DummyClass2@1ef6d34c]" started-at="2026-05-27T10:13:32 IST" name="tearDown" finished-at="2026-05-27T10:13:32 IST" duration-ms="463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.DummyClass2 -->
-    </test> <!-- Dummy Test -->
-    <test started-at="2026-05-06T02:17:13 IST" name="Dummy Test two" finished-at="2026-05-06T02:17:39 IST" duration-ms="25665">
       <class name="tests.UITestClass">
-        <test-method is-config="true" signature="loadconfig()[pri:0, instance:tests.UITestClass@3406472c]" started-at="2026-05-06T02:17:13 IST" name="loadconfig" finished-at="2026-05-06T02:17:13 IST" duration-ms="29" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadconfig -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.UITestClass@3406472c]" started-at="2026-05-06T02:17:13 IST" name="setup" finished-at="2026-05-06T02:17:21 IST" duration-ms="7761" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.UITestClass@46271dd6]" started-at="2026-05-27T10:13:22 IST" name="setup" finished-at="2026-05-27T10:13:30 IST" duration-ms="8129" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpPages()[pri:0, instance:tests.UITestClass@3406472c]" started-at="2026-05-06T02:17:21 IST" name="setUpPages" finished-at="2026-05-06T02:17:21 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpPages -->
-        <test-method signature="testClassAttribute()[pri:0, instance:tests.UITestClass@3406472c]" started-at="2026-05-06T02:17:21 IST" name="testClassAttribute" finished-at="2026-05-06T02:17:24 IST" duration-ms="3194" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testClassAttribute -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UITestClass@3406472c]" started-at="2026-05-06T02:17:24 IST" name="tearDown" finished-at="2026-05-06T02:17:25 IST" duration-ms="857" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.UITestClass@3406472c]" started-at="2026-05-06T02:17:25 IST" name="setup" finished-at="2026-05-06T02:17:32 IST" duration-ms="6736" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.UITestClass@46271dd6]" started-at="2026-05-27T10:13:22 IST" name="setup" finished-at="2026-05-27T10:13:27 IST" duration-ms="5032" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpPages()[pri:0, instance:tests.UITestClass@3406472c]" started-at="2026-05-06T02:17:32 IST" name="setUpPages" finished-at="2026-05-06T02:17:32 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:tests.UITestClass@46271dd6]" started-at="2026-05-27T10:13:27 IST" name="setUpPages" finished-at="2026-05-27T10:13:27 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpPages -->
-        <test-method signature="testDynamicID()[pri:0, instance:tests.UITestClass@3406472c]" started-at="2026-05-06T02:17:32 IST" name="testDynamicID" finished-at="2026-05-06T02:17:38 IST" duration-ms="6130" status="PASS">
+        <test-method signature="testDynamicID()[pri:0, instance:tests.UITestClass@46271dd6]" started-at="2026-05-27T10:13:27 IST" name="testDynamicID" finished-at="2026-05-27T10:13:37 IST" duration-ms="10156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDynamicID -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UITestClass@3406472c]" started-at="2026-05-06T02:17:38 IST" name="tearDown" finished-at="2026-05-06T02:17:39 IST" duration-ms="933" status="PASS">
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:tests.UITestClass@46271dd6]" started-at="2026-05-27T10:13:30 IST" name="setUpPages" finished-at="2026-05-27T10:13:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testClassAttribute()[pri:0, instance:tests.UITestClass@46271dd6]" started-at="2026-05-27T10:13:30 IST" name="testClassAttribute" finished-at="2026-05-27T10:13:36 IST" duration-ms="5374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClassAttribute -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UITestClass@46271dd6]" started-at="2026-05-27T10:13:36 IST" name="tearDown" finished-at="2026-05-27T10:13:36 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.UITestClass@46271dd6]" started-at="2026-05-27T10:13:37 IST" name="tearDown" finished-at="2026-05-27T10:13:38 IST" duration-ms="393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -16,11 +16,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 
 import org.apache.logging.log4j.Logger;
 import actionDriver.ActionDriver;
+import utils.ExtentManager;
 import utils.LoggerManager;
 
 public class baseClass {
@@ -45,11 +47,15 @@ public class baseClass {
       // Load the File
       properties.load(fis);
       logger.info("Configuration file loaded successfully.");
+      
+      //Start the Extent Report before the test suite execution starts
+      ExtentManager.getReporter();
 
    }
-    @Parameters("browserName")
+    
     @BeforeMethod
-   public void setup(String browserName) throws FileNotFoundException, IOException {
+    @Parameters("browserName")
+   public synchronized void setup(@Optional("chrome") String browserName) throws FileNotFoundException, IOException {
 
             loadconfig();
             launchBrowser(browserName);
@@ -85,16 +91,19 @@ public class baseClass {
                   options.addArguments("--remote-allow-origins=*");
                   //driver = new ChromeDriver(options);
                   driver.set(new ChromeDriver(options));
+                  ExtentManager.registerDriver(getDriver()); // Register the WebDriver instance with ExtentManager
                   logger.info("Chrome browser launched successfully.");
             }
             else if(browser.equalsIgnoreCase("firefox")){
                   //driver = new FirefoxDriver();
                   driver.set(new FirefoxDriver());
+                  ExtentManager.registerDriver(getDriver()); // Register the WebDriver instance with ExtentManager
                   logger.info("Firefox browser launched successfully.");
             }
             else if(browser.equalsIgnoreCase("edge")){
                  //driver = new EdgeDriver();
                   driver.set(new EdgeDriver());
+                  ExtentManager.registerDriver(getDriver()); // Register the WebDriver instance with ExtentManager
                  logger.info("Edge browser launched successfully.");
             }
             else{
